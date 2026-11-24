@@ -112,11 +112,6 @@ export default defineConfig({
       quote: '可能是链接写错了，或者页面已经被移动。',
       linkLabel: '返回首页',
       linkText: '返回首页'
-    },
-
-    editLink: {
-      pattern: 'https://github.com/izetaiota/Vault/edit/master/docs/:path',
-      text: '在 GitHub 上编辑此页'
     }
   }
 })
