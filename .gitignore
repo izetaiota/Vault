@@ -1,0 +1,7 @@
+# 依赖与构建产物
+node_modules
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# 本地 IDE 配置
+.idea/
