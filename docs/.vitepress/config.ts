@@ -34,7 +34,10 @@ export default defineConfig({
             {
               text: 'AI 工具集',
               collapsed: false,
-              items: [{ text: '总览', link: '/toolbox/ai/' }]
+              items: [
+                { text: '总览', link: '/toolbox/ai/' },
+                { text: 'WaytoAGI 通往 AGI 之路', link: '/toolbox/ai/waytoagi' }
+              ]
             },
             {
               text: '网络与访问工具',
