@@ -1,6 +1,5 @@
-# GitHub (linguist) 默认把 docs/ 目录视作文档，排除出语言统计；
-# 本仓库主体就是 docs/ 下的知识库内容，这里取消排除，让语言统计如实反映。
-docs/** -linguist-documentation
-
-# 依赖锁定文件是工具生成的，不计入语言统计
-package-lock.json linguist-generated=true
+# 本仓库为文档知识库，语言统计不具参考意义：
+# GitHub 不把 Markdown 计入语言统计，剩余可统计的只有少量
+# 站点配置代码（TypeScript 等），单独显示会造成误导。
+# 这里将全部文件排除出语言统计，隐藏仓库页的语言条。
+* linguist-vendored
