@@ -3,22 +3,24 @@
 layout: home
 
 hero:
-  name: "工具箱知识库"
-  text: "实用的工具，随手可查"
-  tagline: 收集整理日常开发中用得上的工具、命令与技巧，按分类归档，随时查阅
+  name: "Vault"
+  text: "个人亲测精选的工具宝库"
+  tagline: 归集工具、脚本、在线服务与优质资源。拒绝泛收，只沉淀高效实用内容，支持随时检索复用。
   actions:
     - theme: brand
       text: 进入工具箱
       link: /toolbox/
     - theme: alt
-      text: 写作指南
-      link: /guide/
+      text: 收录标准
+      link: /toolbox/#收录标准
 
 features:
-  - title: 工具笔记
-    details: 记录每个工具的用途、安装配置和常用操作，用到时不必再从头搜索。
-  - title: 命令速查
-    details: 把高频命令整理成速查表，忘记参数时打开就能查。
-  - title: 经验沉淀
-    details: 把踩过的坑和好用的技巧记下来，下次遇到同类问题直接翻阅。
+  - title: 亲测可用
+    details: 经过实际使用验证，功能完整、体验流畅，不收录道听途说的选项。
+  - title: 效率优先
+    details: 能够解决具体问题、切实提升工作效率，不为收藏而收藏。
+  - title: 稳定低扰
+    details: 优先选择长期维护、无广告捆绑的纯净方案。
+  - title: 去重择优
+    details: 同类工具仅保留最优 1-2 款，不做冗余堆砌。
 ---

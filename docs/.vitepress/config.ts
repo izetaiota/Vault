@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: '工具箱知识库',
-  description: '收集整理日常开发中实用的工具、命令与技巧',
+  title: 'Vault',
+  description: '个人亲测精选的工具宝库，归集工具、脚本、在线服务与优质资源',
   // 站点部署在 https://<用户名>.github.io/<仓库名>/ 时，base 需设为 /<仓库名>/
   base: '/Vault/',
 
@@ -32,8 +32,42 @@ export default defineConfig({
           items: [
             { text: '总览', link: '/toolbox/' },
             {
-              text: '开发工具',
-              items: [{ text: 'Git 常用命令', link: '/toolbox/dev/git' }]
+              text: 'AI 工具集',
+              collapsed: false,
+              items: [{ text: '总览', link: '/toolbox/ai/' }]
+            },
+            {
+              text: '网络与访问工具',
+              collapsed: false,
+              items: [{ text: '总览', link: '/toolbox/network/' }]
+            },
+            {
+              text: '桌面效率工具',
+              collapsed: false,
+              items: [{ text: '总览', link: '/toolbox/desktop/' }]
+            },
+            {
+              text: '开发工具集',
+              collapsed: false,
+              items: [
+                { text: '总览', link: '/toolbox/dev/' },
+                { text: 'Git 常用命令速查', link: '/toolbox/dev/git' }
+              ]
+            },
+            {
+              text: '在线服务',
+              collapsed: false,
+              items: [{ text: '总览', link: '/toolbox/online/' }]
+            },
+            {
+              text: '脚本与自动化',
+              collapsed: false,
+              items: [{ text: '总览', link: '/toolbox/scripts/' }]
+            },
+            {
+              text: '素材与资源',
+              collapsed: false,
+              items: [{ text: '总览', link: '/toolbox/resources/' }]
             }
           ]
         }
