@@ -54,7 +54,8 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '总览', link: '/toolbox/dev/' },
-                { text: 'Git 常用命令速查', link: '/toolbox/dev/git' }
+                { text: 'Git 常用命令速查', link: '/toolbox/dev/git' },
+                { text: 'zlib CLI', link: '/toolbox/dev/zlib' }
               ]
             },
             {

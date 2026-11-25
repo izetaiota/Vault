@@ -10,3 +10,4 @@ description: 编辑器插件、命令行工具、调试与部署套件
 | 工具 | 简介 |
 | --- | --- |
 | [Git](/toolbox/dev/git) | 常用命令速查：配置、提交、分支、远程操作、撤销回退等 |
+| [zlib CLI](/toolbox/dev/zlib) | 基于 Go 的 Z-Library 命令行工具：搜索下载电子书、推送 Kindle 与微信读书、集成 AI 智能体 |
