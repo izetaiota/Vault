@@ -37,6 +37,7 @@ export default defineConfig({
               items: [
                 { text: '总览', link: '/toolbox/ai/' },
                 { text: 'WaytoAGI 通往 AGI 之路', link: '/toolbox/ai/waytoagi' },
+                { text: 'WildAI 订阅代订', link: '/toolbox/ai/bewild' },
                 { text: 'ChatGPT', link: '/toolbox/ai/chatgpt' },
                 { text: 'Claude', link: '/toolbox/ai/claude' },
                 { text: 'Hugging Face', link: '/toolbox/ai/huggingface' }
