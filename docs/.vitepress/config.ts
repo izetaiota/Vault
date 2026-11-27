@@ -46,7 +46,10 @@ export default defineConfig({
             {
               text: '网络与访问工具',
               collapsed: false,
-              items: [{ text: '总览', link: '/toolbox/network/' }]
+              items: [
+                { text: '总览', link: '/toolbox/network/' },
+                { text: 'TNT 机场订阅', link: '/toolbox/network/tnt' }
+              ]
             },
             {
               text: '桌面效率工具',
