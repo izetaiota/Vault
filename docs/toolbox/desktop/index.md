@@ -7,10 +7,8 @@ description: 系统增强、文件管理、效率启动器等桌面端工具
 
 涵盖系统增强、文件管理、效率启动器等桌面端工具，优化日常操作流程，减少重复机械操作。
 
-本分类暂未收录条目，待实测后补充。
-
-<!-- 条目表格模板：
 | 工具 | 简介 |
 | --- | --- |
-| [名称](链接) | 一句话简介 |
--->
+| [awesome-mac](/toolbox/desktop/awesome-mac) | macOS 优质软件分类大全，按使用场景系统整理，方便检索与选型 |
+| [Everything](/toolbox/desktop/everything) | Windows 本地文件秒级搜索工具，按文件名建立索引，检索近乎即时 |
+| [Snipaste](/toolbox/desktop/snipaste) | 截图 + 贴图二合一工具，把截图钉在屏幕上对照使用 |

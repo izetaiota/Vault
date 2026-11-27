@@ -36,7 +36,10 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '总览', link: '/toolbox/ai/' },
-                { text: 'WaytoAGI 通往 AGI 之路', link: '/toolbox/ai/waytoagi' }
+                { text: 'WaytoAGI 通往 AGI 之路', link: '/toolbox/ai/waytoagi' },
+                { text: 'ChatGPT', link: '/toolbox/ai/chatgpt' },
+                { text: 'Claude', link: '/toolbox/ai/claude' },
+                { text: 'Hugging Face', link: '/toolbox/ai/huggingface' }
               ]
             },
             {
@@ -47,7 +50,12 @@ export default defineConfig({
             {
               text: '桌面效率工具',
               collapsed: false,
-              items: [{ text: '总览', link: '/toolbox/desktop/' }]
+              items: [
+                { text: '总览', link: '/toolbox/desktop/' },
+                { text: 'awesome-mac', link: '/toolbox/desktop/awesome-mac' },
+                { text: 'Everything', link: '/toolbox/desktop/everything' },
+                { text: 'Snipaste', link: '/toolbox/desktop/snipaste' }
+              ]
             },
             {
               text: '开发工具集',
@@ -61,17 +69,26 @@ export default defineConfig({
             {
               text: '在线服务',
               collapsed: false,
-              items: [{ text: '总览', link: '/toolbox/online/' }]
+              items: [
+                { text: '总览', link: '/toolbox/online/' },
+                { text: 'Excalidraw', link: '/toolbox/online/excalidraw' }
+              ]
             },
             {
               text: '脚本与自动化',
               collapsed: false,
-              items: [{ text: '总览', link: '/toolbox/scripts/' }]
+              items: [
+                { text: '总览', link: '/toolbox/scripts/' },
+                { text: 'AutoHotkey', link: '/toolbox/scripts/autohotkey' }
+              ]
             },
             {
               text: '素材与资源',
               collapsed: false,
-              items: [{ text: '总览', link: '/toolbox/resources/' }]
+              items: [
+                { text: '总览', link: '/toolbox/resources/' },
+                { text: 'iconfont', link: '/toolbox/resources/iconfont' }
+              ]
             }
           ]
         }
